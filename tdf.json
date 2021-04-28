@@ -4,10 +4,6 @@
       "name": "deleteme",
       "image": "864045681226.dkr.ecr.us-east-2.amazonaws.com/deleteme:latest",
       "cpu": 10,
-      "command": [
-        "sleep",
-        "360"
-      ],
       "memory": 10,
       "essential": true
     }
