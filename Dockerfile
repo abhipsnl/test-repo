@@ -1,3 +1,5 @@
 FROM alpine
 EXPOSE 80
-ENTRYPOINT ["echo", "Hello World"]
+WORKDIR /app
+COPY hello-world.sh /app/
+ENTRYPOINT ["sh", "/app/hello-world.sh"]
