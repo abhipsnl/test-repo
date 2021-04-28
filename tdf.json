@@ -1,12 +1,12 @@
 {
   "containerDefinitions": [
     {
-      "name": "deleteme",
+      "name": "hello-world",
       "image": "864045681226.dkr.ecr.us-east-2.amazonaws.com/deleteme:latest",
       "cpu": 10,
       "memory": 10,
       "essential": true
     }
   ],
-  "family": "deleteme"
+  "family": "hello-world"
 }
