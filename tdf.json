@@ -1,7 +1,7 @@
 {
   "containerDefinitions": [
     {
-      "name": "busybox",
+      "name": "deleteme",
       "image": "864045681226.dkr.ecr.us-east-2.amazonaws.com/deleteme:latest",
       "cpu": 10,
       "command": [
@@ -12,5 +12,5 @@
       "essential": true
     }
   ],
-  "family": "busybox"
+  "family": "deleteme"
 }
